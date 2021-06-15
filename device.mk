@@ -58,9 +58,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor
 
-# Camera
+# Google Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCameraGo
 
 # Display
 PRODUCT_PACKAGES += \
