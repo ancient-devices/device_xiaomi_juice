@@ -1,12 +1,14 @@
 [
  {
-   "repository"  : "kernel_xiaomi_juice",
-   "target_path" : "kernel/xiaomi/juice",
-   "branch"      : "main",
-   "remote"      : "github",
+  "remote"      : "github",
+  "repository"  : "ancient-devices/vendor_xiaomi_juice",
+  "target_path" : "vendor/xiaomi/juice",
+  "branch"      : "eleven",
  },
  {
-   "repository"  : "vendor_xiaomi_juice",
+  "remote"      : "github",
+   "repository"  : "ancient-devices/vendor_xiaomi_juiceient-",
    "target_path" : "vendor/xiaomi/juice",
+  "branch"      : "eleven",
  }
 ]
