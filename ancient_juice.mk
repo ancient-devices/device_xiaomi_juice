@@ -12,7 +12,6 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 TARGET_GAPPS_ARCH := arm64
-ANCIENT_GAPPS=true
 ANCIENT_OFFICIAL := true
 FORCE_OTA := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -31,4 +30,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210905.001.A1/7511028:user/release-keys"
