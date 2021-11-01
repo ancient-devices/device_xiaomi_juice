@@ -1,9 +1,10 @@
 # Blur
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.disable_blurs=1 \
-    ro.surface_flinger.supports_background_blur=1
+    ro.surface_flinger.supports_background_blur=0 \
+    ro.sf.blurs_are_expensive=0
 
-# Dex2oat
+# Dex2oat 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 
@@ -17,10 +18,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=0 \
     debug.sf.disable_backpressure=1 \
-    debug.sf.disable_hwc_overlays=1 \
+    debug.sf.disable_hwc_overlays=0 \
     debug.sdm.support_writeback=0 \
     debug.enable.sglscale=1 \
-    debug.egl.hw \
+    debug.egl.hw=1 \
     debug.egl.force.msaa=1 \
     debug.mdpcomp.logs=0 \
     debug.sf.recomputecrop=0 \
