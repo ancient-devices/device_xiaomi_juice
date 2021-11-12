@@ -72,6 +72,9 @@ void vendor_load_properties() {
         property_override(prop_name.c_str(), value.c_str(), false);
     };
 
+    property_override("ro.build.fingerprint", "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys");
+    property_override("ro.build.description", "raven-user 12 SD1A.210817.036 7805805 release-keys");
+
     std::string hwname = GetProperty("ro.boot.product.hardware.sku", "");
     
     if (hwname == "lime") {
