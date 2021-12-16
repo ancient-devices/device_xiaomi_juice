@@ -26,6 +26,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
+ANCIENT_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := ancient_juice
