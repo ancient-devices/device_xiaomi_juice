@@ -58,6 +58,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth@1.1.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    GrapheneOSCamera
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
