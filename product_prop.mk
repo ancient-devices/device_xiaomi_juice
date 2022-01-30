@@ -1,9 +1,3 @@
-# Blur
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.sf.disable_blurs=1 \
-    ro.surface_flinger.supports_background_blur=0 \
-    ro.sf.blurs_are_expensive=0
-
 # Dex2oat 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
