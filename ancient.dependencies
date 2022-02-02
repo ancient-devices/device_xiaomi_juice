@@ -1,19 +1,19 @@
 [
  {
   "remote": "github",
-  "repository": "indraadp/fury_bengal_kernel",
+  "repository": "greenforce-project/kernel_xiaomi_citrus_sm6115",
   "target_path": "kernel/xiaomi/juice",
-  "branch": "juice"
+  "branch": "rvc"
  },
  {
   "remote": "github",
    "repository": "indraadp/vendor_xiaomi_juice_s",
    "target_path": "vendor/xiaomi/juice",
   "branch": "main"
- }
+ },
 "remote": "github",
-  "repository": "GengKapak/GengKapak-clang",
-  "target_path": "prebuilts/clang/host/linux-x86/clang-gengkapak",
+  "repository": "kdrag0n/proton-clang",
+  "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
   "branch": "12"
  }
 ]
