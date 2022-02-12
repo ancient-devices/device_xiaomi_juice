@@ -214,6 +214,3 @@ PRODUCT_PACKAGES += \
 # Juice Parts
 PRODUCT_PACKAGES += \
     JuiceParts
-
--include $(LOCAL_PATH)/product_prop.mk
--include $(LOCAL_PATH)/system_prop.mk
