@@ -209,9 +209,8 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelecommResCommon \
     TelephonyResCommon \
-    WifiResCommon \
-    SettingsProviderOverlayJuice
-    
+    WifiResCommon
+
 # Juice Parts
 PRODUCT_PACKAGES += \
     JuiceParts
