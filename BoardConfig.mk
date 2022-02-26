@@ -168,6 +168,10 @@ TARGET_COPY_OUT_PRODUCT := product
 
 BUILD_WITHOUT_VENDOR := true
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
@@ -175,9 +179,6 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
-
-# Platform
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
