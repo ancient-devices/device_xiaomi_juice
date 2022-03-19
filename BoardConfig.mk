@@ -44,6 +44,9 @@ TARGET_OTA_ASSERT_DEVICE := lime,citrus,lemon,pomelo,juice
 # Audio
 AUDIO_FEATURE_ENABLED_HDMI_SPK := true
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
