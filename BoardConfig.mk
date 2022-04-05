@@ -120,8 +120,9 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 #clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
-KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
+TARGET_KERNEL_CLANG_VERSION := r445002
+KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r445002/bin/aarch64-linux-gnu-
+TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
