@@ -18,6 +18,10 @@ ro.hardware.vulkan=adreno
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
 
+# FUSE Passthrough
+persist.sys.fuse.passthrough.enable=true
+persist.sys.fuse.bpf.enable=false
+
 # Power-saving props
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
